@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "pfwr --open --watch presentation.md",
+    "build": "pfwr presentation.md presentation.html"
+  },
+  "author": "Maciej Barelkowski <maciej.barelkowski@camunda.com>",
+  "dependencies": {
+    "pfwr": "^0.8.0"
+  }
+}
